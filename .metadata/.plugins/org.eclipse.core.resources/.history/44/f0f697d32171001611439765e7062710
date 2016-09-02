@@ -1,0 +1,11 @@
+public class Calculate{
+	public static int square(int x){
+	
+	double answer;
+	answer = x*x;
+	return answer;
+
+	}
+
+}
+
