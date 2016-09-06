@@ -12,10 +12,13 @@ public class Calculate {
 		} 
 
 		public static double average (double x, double y) {
-			double answer = (x+y)/2;
+			double answer = (x + y)/2;
 			return answer;
-			
-	
+		}
+		
+		public static double average (double x, double y, double z){
+			double answer = (x + y + z)/3;
+			return answer;
 		}
 		
 }

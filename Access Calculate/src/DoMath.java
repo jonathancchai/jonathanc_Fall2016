@@ -6,7 +6,9 @@ public class DoMath {
 
 		Calculate.square(5.0);
 		Calculate.cube(5.0);
-	
+		Calculate.average(2.0, 6.0);
+		
+		System.out.println(Calculate.average(2.0, 6.0, 1.0));
 		
 	}
 
